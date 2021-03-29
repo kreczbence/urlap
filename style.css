@@ -1,0 +1,13 @@
+table{
+    background-color: lightgray;
+}
+#big{
+    font-size: 1.5em;
+}
+b{
+    color: red;
+}
+#gomb{
+    background-color: orange;
+    color: white;
+}

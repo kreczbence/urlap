@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<title>Űrlap</title>
+</head>
+<body>
+	<p id="big">Alapadatok</p>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <form action="">Teljes neved
+                </td>
+                <td>
+                    <input type="text"></form>
+                </td>
+            </tr>
+            <tr>
+                <td>Nemed</td>
+                <td><label><input type="radio" value="ferfi">Férfi</label>
+                    <input type="radio" value="no">Nő</td>
+            </tr>
+            <tr>
+                <td>
+                <form action="">E-mail <b>*</b></td>
+                    <td>
+                        <input type="email" name="email"></form>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="">Telefonszám<b>*</b>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="36">36</option>
+                    </select>
+                </from> <input type="text" name="telefonszam" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="">Levelezés alapértelmezett nyelve <b>*</b>
+                </td>
+                <td>
+                    <input type="text" list="nyelv"> <datalist id="nyelv">
+                        <option value="Magyar">Magyar</option>
+                        <option value="Angol">Angol</option>
+                        <option value="Német">Német</option>
+                        </datalist>
+                </td>
+            </form>
+            </tr>
+            <tr>
+                <td>
+                    <form action="">Születési idő
+                </td>
+                <td>
+                    <input type="date"></form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Mentés" id="gomb">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
